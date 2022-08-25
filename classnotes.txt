@@ -333,3 +333,5 @@ let totalAverage = names.map(( ) );
 }
 
 // approaching end of class.
+
+// visualizer tool, python tutor website is just so cool. seriously.....

@@ -13,10 +13,20 @@ console.log(`is amzing!!!`);
 
 
 **const greeting = function(name) {
-	return "hello $(name)!"
+	return "Hello $(name)!"
 }
 
 console.log(greeting(name)); //like this?
+
+const greeting = function(name) {
+	return "Hello $(name)!";
+};
+
+//didn't know you could declare variables like this;
+
+"always use template literals"?
+
+---
 
 template literals
 arrow functions
@@ -33,3 +43,71 @@ const, same scope as let, but value cannot be changed after set
 
 const AZ_SALES_TAX = 0.056;
 AZ_SALES_TAX = 0; //Error
+
+---
+
+function something() {
+if (something) {
+	let myVariable = "frank"
+}
+}
+
+console.log(myVariable); //error, codeblock scope error?;
+
+generally you want scope to be as small as possible; generally then, you want variables declared within local scopes.
+
+---
+
+function expressions
+
+not every function needs parameters or a return statement;
+
+can have multiple parameters and multiple return statements, but only return statement will run; conditionals and default, etc.
+
+function name(firstName, lastName) {
+	return firstName;
+}
+
+name("frank");
+
+just above, here "fristName" is a variable whose scope is function level. Its scope is the entire function.
+
+if (parameters) {
+return "don't use const, let, var";
+}
+
+"an anti-pattern"
+
+don't modify parameter values; copy and modify;
+
+an anti-pattern is something you don't want to go; good coding strategies, best practices.
+
+---
+
+more robust, efficient code: to say this:
+
+const greeting = function(name) {
+	return "Hello $(name)!";
+}
+
+console.log(greeting("frank"));
+
+---
+
+Arrow functions, shortend for function expressions;
+
+const greeting2 = (name) => {
+	return "Hello $(name)";
+}
+
+uses "=>" instead of "function" above, put on right side instead of keyword on left side. "(name) =>" instead of "function (name)".
+
+can also be written w/out parameters "() => {}"
+
+exactly the same, just without "function" keyword
+
+can be all one line, "implicit return":
+
+const greeting3 = (name) => "Hello $(name)";
+
+instructor prefers writing it all out; preferred practice, not necessarily best practice, not necessarily most readable code. "It's all about readabillity."

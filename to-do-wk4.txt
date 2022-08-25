@@ -1,0 +1,23 @@
+# Author: William Z Chadwick
+# Date Created: 08/24/2022
+# Date Modified: 08/24/2022
+# Description: A place for my to-do list for week four, Promineo Tech front end.
+
+
+To do:
+
+
+-class attendance /
+-post on linkedin /
+-videos
+-research
+-coding assignment
+-career services assignment
+-openclass problem sets
+-get a headstart on Week 5 ?
+-
+-
+-
+-buy new battery /
+-get vscode working again /
+-remember what else there is to do ()

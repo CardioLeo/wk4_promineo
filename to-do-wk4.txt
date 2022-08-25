@@ -7,17 +7,27 @@
 To do:
 
 
--class attendance /
--post on linkedin /
--videos
--research
--coding assignment
--career services assignment
--openclass problem sets
--get a headstart on Week 5 ?
+1. class attendance /
+2. post on linkedin /
+3. videos
+-const and let
+-template literals
+-arrow functions
+-callbacks
+-promises
+
+4. research
+5. coding assignment
+6. career services assignment
+7. openclass problem sets
+8. get a headstart on Week 5 ?
+9.
+10.
+11.
+12.
 -
 -
 -
--buy new battery /
--get vscode working again /
--remember what else there is to do ()
+13. buy new battery /
+14. get vscode working again /
+15. remember what else there is to do ()

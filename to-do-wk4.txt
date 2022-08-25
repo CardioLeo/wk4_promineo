@@ -19,15 +19,16 @@ To do:
 4. research
 5. coding assignment
 6. career services assignment
-7. openclass problem sets
-8. get a headstart on Week 5 ?
-9.
+7. openclass problem sets: openclass, arrow functions
+8. week 4 quiz
+9. get a headstart on Week 5 ?
 10.
 11.
 12.
 -
 -
 -
-13. buy new battery /
+13. buy new computer battery /
 14. get vscode working again /
-15. remember what else there is to do ()
+15. buy book on FORTRAN and Girard /
+16. remember what else there is to do ()

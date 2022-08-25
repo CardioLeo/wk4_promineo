@@ -210,4 +210,126 @@ console.log(update(stringify)); // returns ['1', '2', '3']
 
 walking through the steps;
 
+---
 
+callbacks used a lot more often in react, later in course;
+
+function declarations hoisted to the top
+
+function expression is not hoisted, but a function declaration is hoisted to the top; it is not that important in development, but can be an interview question.
+
+function declarations hoisted to the top, arrow functions are not hoisted.
+
+this can be helpful, or not.
+
+sometimes there is one right way; but a lot of times there is not.
+
+helpful to know in the future; again, for interviews;
+
+---
+---***---
+---
+
+built in higher order functions that are parts of arrays:
+
+let parks = [
+	{ name: "Biscayne", rating: 4.2 },
+	{ name: "Grand Canyon", rating: 5 },
+	{ name: "Gateway Arch", rating: 4.5 },
+	{ name: "Indiana Dunes", rating 4.1 },
+];
+
+// 1. one liner (implied return)
+// forEach replaces a loop***
+// implicit return:
+
+parks.forEach(park => console.log(park.name));
+
+// callback is written out as "park => ..."
+
+// 2. longer with {}
+parks.forEach(function (park) {
+	console.log(park.name);
+});
+
+// 3. longer with function declaration instead of arrow function
+parks.forEach(function (park) {
+	console.log(park.name);
+});
+
+// 4. with explicit return statement
+parks.forEach((park) => {
+	return console.log(park.name);
+});
+
+---
+
+// map (returns a new array of same length)
+// https://wesbos.com/javascript/09-gettin-loopy/50-looping-and-iterating-mapping
+
+// gets to later lesson in the program
+
+const result = parks.map(park => park.name);
+console.log(result);
+
+//
+
+const result = parks.map(park => park.name); // => ["name1", "name2", "name3", "name4"]
+console.log(result);
+//
+//
+
+
+let result2 = parks.filter((park) => park.rating >= 4.5);
+// 1- create new empty array, 2- loop through array 3- if statement for filter 4- push into new array 5- return new array [ << Stepanski's pseudocode]
+console.log(result2);
+
+// returns elements as an object; filter returns 2 instead of 4 elements;
+
+
+// "reduce is the hardest one to figure out"
+
+// "transform reduce, a favorite algorythm?
+
+// the Javascript reduce() function, free books
+
+---
+
+// reduce
+
+week 3 assignment rewritten as reduce;
+
+find average number of characters in an array.
+
+function challengeTwo() {
+const names = ["Sam", "Tommy", "Sally", "Buck", "Bob"];
+
+let totalChars = names.reduce((total, current) => total + current.length, 0)
+
+let totalAverage = names.reduce((average, current) => average + current.length / names.length, 0);
+
+console.log(totalChars/names.length);
+
+console.log(totalAverage);
+
+}
+
+// Stepanski showed us the Python Tutor website, very cool walkthroughs for code!! -- first free website I've seen that walks you through step by step each step for a piece of code. That's so cool! -- I've not seen any free resources like that so far
+
+---
+
+challengeTwo() {
+
+// using map:
+
+const names = ["Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"];
+
+let totalChars = names.map(( ) );
+
+let totalAverage = names.map(( ) );
+
+//.....
+
+}
+
+// approaching end of class.

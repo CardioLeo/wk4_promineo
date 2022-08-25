@@ -1,0 +1,35 @@
+# Author:
+#
+#
+#
+
+
+**string literals, ` <<< backtics to call back variables, easier to read
+
+let firstName = "frank";
+let lastName = "stepanski";
+console.log(`is amzing!!!`);
+
+
+
+**const greeting = function(name) {
+	return "hello $(name)!"
+}
+
+console.log(greeting(name)); //like this?
+
+template literals
+arrow functions
+callbacks
+promises (to be discussed another time)
+
+---
+
+var, global or function scope. a variable declared outside of a function becomes a global variable.
+
+let, code block {} scoped. this is how most programming languages work with the only difference that variables are hoisted to the top of the code block
+
+const, same scope as let, but value cannot be changed after set
+
+const AZ_SALES_TAX = 0.056;
+AZ_SALES_TAX = 0; //Error

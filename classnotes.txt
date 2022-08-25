@@ -111,3 +111,103 @@ can be all one line, "implicit return":
 const greeting3 = (name) => "Hello $(name)";
 
 instructor prefers writing it all out; preferred practice, not necessarily best practice, not necessarily most readable code. "It's all about readabillity."
+
+---
+
+use const always with function declarations? instructor seems to think so; const for arrays and functions.
+
+const blue = function bluing () {};
+
+---
+
+asynchronous stuff - not getting into that today, as with promises.
+
+---
+
+behind the scenes stuff
+
+execution context:
+
+-when any ...
+
+---
+
+callbacks. getting to this.
+
+"a callback is a function that is passed as an argument to another function
+
+Higher order function:
+"a function (method) that takes a function as an argument or returns a function
+
+"This is where the saying vcomes from ' functions are firt-class citizens'
+"-meaning functions can be assigned to variables and passed around to other functions
+
+"sample HOF functions:
+
+"Array Methods: forEach, map, filter, reduce, etc."
+
+^^built in higher functions
+
+also, *higher order methods*
+
+---
+
+create our own HOF and callback functions;
+
+can make your own; not common;
+
+function update(cb) {
+	const array = [1, 2, 3];
+	const output = [];
+	for (let i=0; i < array.length; i++) {
+		const updated = cd(array[i]);
+		output.push(updated);
+	}
+	return output;
+
+}
+
+//cb above is a function assigned to a variable; array[i] gets passed into the cb function as an argument.
+
+//calling it like a function, inferring it is a function "update(cb)" and "cb(array[i]);"
+
+---
+
+
+//Callback functions;
+
+function add10(num) {
+	return num + 10;
+}
+
+function multiplyBy20(num) {
+	return num * 20;
+}
+
+function stringify(num) {
+	return num.toString();
+}
+
+any number of functions can be called into a function with parameters; any number of Callbacks can be called into HOFs;
+
+in the declaration above, cb is a callback parameter, but not an argument.
+
+could call add10, multiplyBy20, stringify;
+
+could pass update(stringify) or update(toString);
+
+update(add10), update(multiplyBy20);
+
+---
+
+console.log(update(add10)); // returns [11, 12, 13];
+
+console.log(update(multiplyBy20)); // returns [20, 40, 60]
+
+console.log(update(stringify)); // returns ['1', '2', '3']
+
+---
+
+walking through the steps;
+
+

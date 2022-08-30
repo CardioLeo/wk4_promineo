@@ -1,0 +1,27 @@
+
+
+let newArray = customers.filter(callback(currentValue[, index[, array]]) {
+
+}[, thisArg]);
+
+
+
+customers.name[0].includes("C", "c");
+let createFullName = (firstName, lastName) => {
+  return firstName + " " + lastName;
+}
+
+let doubleNumber = (number) => {
+  return number * 2;
+}
+
+let getEvenNumbers = (array) => {
+  let evenNumbers = [];
+  for (let i of array) {
+    if (i % 2 === 0) {
+      evenNumbers.push(i);
+    }
+  }
+  return evenNumbers;
+}
+

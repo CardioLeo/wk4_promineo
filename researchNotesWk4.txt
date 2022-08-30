@@ -35,11 +35,15 @@ All three are hoisted to the top of their scope.
 
 https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
 
+2.
 
 New Features that came out with ES2015 (ES6):
--
--
--
--
--
--
+-Destructing
+-Spread operator
+-Rest parameter
+-Default parameter
+-Template Literals
+-Arrow functions
+-For...of loop
+
+discussed in this url: https://medium.com/@joshjnunez09/javascript-es6-a-major-upgrade-148cfc65a587

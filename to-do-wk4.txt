@@ -17,6 +17,10 @@ To do:
 -promises
 
 4. research
+-first prompt /
+-second prompt /
+-third?
+
 5. coding assignment
 6. career services assignment
 7. openclass problem sets: openclass, arrow functions

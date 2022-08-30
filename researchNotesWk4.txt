@@ -21,4 +21,23 @@ which ones should I do?
 
 I will do the first one; and the second and maybe third one.
 
+---
 
+1. Was ist der Differance Zwischen var, let und const?
+
+The difference is shown in their scope, use, and hoising. Var declarations were primary before ES6. var declarations are globally or locally scoped. var variables can be redefined as many times as needed within the scope in which they are declared. Hoisting is where javascript, when run, interprets all variables as declared at the very top of the program, before everything else is run. "So var variables are hoisted to the top of their scope and initialized with a value of undefined." var might get redefined when you don't want it to get redefined, though.
+
+Let is block scoped. It is bounded by curly braces: {}. So a variable declared in a block with let is only available for use within those; it can be updated but not declared. If you declare let x and {let x} they will not conflict and not create and error. Also, let is not hoisted to the top; "So if you try to use a let variable before declaration, you'll get a Reference Error," as the link says.
+
+Const maintain constant values and are block scoped; it is constant exactly in the sense that it cannot be updated or changed or redeclared after it has been declared the first time. This is also why const must be declared and cannot be left undefined. Still, objects declared with const can have different parts of them updated.
+
+https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+
+
+New Features that came out with ES2015 (ES6):
+-
+-
+-
+-
+-
+-

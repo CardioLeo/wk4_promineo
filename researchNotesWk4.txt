@@ -3,4 +3,22 @@
 # Date Mofified:
 # Description: A place to keep my notes for Week 4 Promineo Tech Research Notes
 
+Prompts
+
+What are the differences between var, let, and const?
+
+What are the differences between callbacks and promises?
+
+What are some features that are new with ES6?
+
+How does a promise work?
+
+What is your favorite thing you learned this week?
+
+---
+
+which ones should I do?
+
+I will do the first one; and the second and maybe third one.
+
 

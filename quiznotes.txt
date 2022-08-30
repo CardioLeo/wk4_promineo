@@ -25,3 +25,50 @@ let getEvenNumbers = (array) => {
   return evenNumbers;
 }
 
+
+---
+
+this is the prompt for the second question and my almost pathetic attempt to answer it:
+
+---
+
+The product owner on your development team believes they've seen a pattern as to which customers purchase the most socks. To verify, you've been asked to write a function that processes an array of customer objects and return a new array that contains only customers that match ANY of the following criteria:
+
+name starts with a 'C' (upper or lowercase)
+address contains no undefined fields
+the city is Peoria and the state is AZ
+membership level is GOLD or PLATINUM unless the customer is younger than 29, then SILVER is okay too
+The array of customer objects will have the following schema:
+
+const customers = [
+    {
+        name: 'Sam',
+        address: {
+            street: '1234 W Bell Rd',
+            city: 'Phoenix',
+            zip: '85308',
+            state: 'AZ'
+        },
+        membershipLevel: 'GOLD',
+        age: 32
+    },
+    //more customers with the same schema
+];
+
+Note: The solution to this problem does not require the use of callbacks. You will also need to use dot notation to access the properties. For example, customers[0].name would return "Sam".
+
+Answer text
+let newArray = customers.filter(callback(currentValue[, index[, array]]) {
+
+}[, thisArg]);
+
+
+
+customers.name[0].includes("C", "c");
+
+
+
+//something like one of these... :/
+
+
+---

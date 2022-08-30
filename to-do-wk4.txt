@@ -21,11 +21,11 @@ To do:
 -second prompt /
 -third?
 
-5. coding assignment
-6. career services assignment
-7. openclass problem sets: openclass, arrow functions
-8. week 4 quiz
-9. get a headstart on Week 5 ?
+5. coding assignment (none)
+6. career services assignment (none?)
+7. openclass problem sets: openclass, arrow functions /
+8. week 4 quiz /
+9. get a headstart on Week 5 ? --- Haha
 10.
 11.
 12.

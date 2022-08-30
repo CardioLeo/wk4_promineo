@@ -3,4 +3,96 @@
 # Date Modified: 08/24/2022
 # Description: A place for my notes on the openclass external tool problem set for week 4, Promineo Tech.
 
+Problem set
+
+1.
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+var b = parseInt(input[1]);
+//write your code here
+let xor = (num1, num2) => num1 ^ num2;
+//do not change
+//for testing purposes
+console.log(xor(a,b));
+
+2.
+
+let fancyAlgorithm = (num1, num2, num3) => let value 0; for(let i=0; i<num3; i++){value=(value+num2)*num1;} return value/(num1*(num3*10));
+
+first attempt ^^
+
+let fancyAlgorithm = (num1, num2, num3) => {
+    let value = 0;
+    for(let i=0; i<num3; i++){
+        value = (value + num2) * num1;
+        }
+    return (value / (num1 * (num3 * 10)));
+};
+
+second attempt ^^
+works
+
+3.
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+//write your code here
+
+let revert = (value) => { return !value; }
+
+//do not change
+console.log(revert(a))
+
+4.
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+//write your code here
+
+let monthlyPayment = (yearlyPayment) => {
+    let monthly = yearlyPayment / 12;
+    return monthly.toFixed(2);
+}
+
+//do not change
+//for testing purposes
+console.log(monthlyPayment(a));
+
+5.
+
+let returnSum = (a, b) => {return a+b};
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+var b = parseInt(input[1]);
+
+//write your code here
+
+let returnSum = (a, b) => {return a+b};
+
+//do not change
+//for testing purposes
+console.log(returnSum(a,b));
+
+instructor solution:
+let returnSum = (a,b) => a+b;
+
+6.
+
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+//write your code here
+
+returnSquareRoot = (num) => {return Math.sqrt(num);}
+
+//do not change
+//for testing purposes
+console.log(returnSquareRoot(a));
+
 

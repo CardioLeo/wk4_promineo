@@ -31,6 +31,8 @@ Let is block scoped. It is bounded by curly braces: {}. So a variable declared i
 
 Const maintain constant values and are block scoped; it is constant exactly in the sense that it cannot be updated or changed or redeclared after it has been declared the first time. This is also why const must be declared and cannot be left undefined. Still, objects declared with const can have different parts of them updated.
 
+All three are hoisted to the top of their scope.
+
 https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
 
 
